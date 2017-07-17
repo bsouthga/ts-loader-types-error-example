@@ -1,5 +1,7 @@
 # ts-loader typings issue
 
+See: https://github.com/TypeStrong/ts-loader/issues/586
+
 Importing a npm TS module with bundled typings, when the entry is a JS file results in the TS module's typings not being recognized.
 
 Run `npm test` to see the issue, which should be something like:
